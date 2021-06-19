@@ -1,96 +1,116 @@
-# 02 Advanced CSS: Portfolio
+# Unit 01: HTML, CSS, and Git
 
-## Your Task
+## Overview
 
-Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+At the heart of every website is **HTML**, or **Hypertext Markup Language**. As the standard language used to build the structure of a webpage, HTML allows us to define elements like paragraphs, images, links, forms, and more.
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+**Cascading Style Sheets**, or **CSS**, is used to add styling to the elements created with HTML. CSS determines how elements are presented on the page, including font, color, size, positioning of elements, and even animation. 
 
-With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+In this unit, you'll learn how to build webpages that use HTML and CSS to define the structure and style. You'll also be introduced to Git, a version control system that stores your code and its history, as well as separate versions of the code. As the building blocks of web development, these are essential skills and tools that you'll use throughout your career. 
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+![portfolio demo](assets\images\02-advanced-css-homework-demo.jpg)
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
+## Key Topics
 
+The following topics will be covered in this unit:
 
-## User Story
+* [Basic built-in terminal commands](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#Basic_built-in_terminal_commands)
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+* [Version control](https://www.atlassian.com/git)
 
+* [GitHub](https://guides.github.com/activities/hello-world/)
 
-## Acceptance Criteria
+* [HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+  * [Attributes](https://developer.mozilla.org/en-US/docs/Glossary/Attribute)
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+* [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
+  * [Color](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
 
-## Mock-Up
+  * [Font](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
 
-The following animation shows the web application's appearance and functionality:
+  * [CSS selector](https://developer.mozilla.org/en-US/docs/Glossary/CSS_Selector)
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+  * [Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
 
+  * [The box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 
-## Grading Requirements
+  * [Position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 
-This homework is graded based on the following criteria: 
+## Learning Objectives
 
-### Technical Acceptance Criteria: 40%
+You will be employer-ready if you are able to:
 
-* Satisfies all of the above acceptance criteria.
+* Navigate your computer’s file system and create directories and files using command-line tools.
 
-### Deployment: 32%
+* Create and clone a repository, add and commit changes, and push and pull code using Git commands.
 
-* Application deployed at live URL.
+* Build the structure of a webpage using HTML elements.
 
-* Application loads with no errors.
+* Add attributes to HTML elements to style the elements or adjust their behavior in various ways.
 
-* Application GitHub URL submitted.
+* Style webpages using CSS's `color` and `font` properties.
 
-* GitHub repository contains application code.
+* Identify the box model and how it relates to an element's layout and design. 
 
-### Application Quality: 15%
+* Alter the layout of webpages using CSS's `display` and `font` properties.
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+## Technical Interview Preparation
 
-### Repository Quality: 13%
+You will be employer-competitive if you are able to solve the following algorithms and successfully complete the assessments.
 
-* Repository has a unique name.
+### Algorithms
 
-* Repository follows best practices for file structure and naming conventions.
+Practicing algorithm-based interview questions is one of the best ways to prepare for interviews. Watch the `📹 Let's Code` video(s) for tips and tricks on how to best solve algorithm problems.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* 📹 [Let's Code Pseudocode!](https://2u-20.wistia.com/medias/hppjuvtlvy)
 
-* Repository contains multiple descriptive commit messages.
+### Assessments
 
-* Repository contains quality readme with description, screenshot, link to deployed application.
+Assess your knowledge by answering technical interview questions and solving coding challenges.
 
-## Review
+* [Unit 01 Technical Interview Questions](https://docs.google.com/forms/d/e/1FAIpQLSc7uLZOO2tysVZT6OBM9nJrbxR0qs2ZDAPrathAw3SkYgNhmA/viewform)
 
-You are required to submit BOTH of the following for review:
+## Homework
 
-* The URL of the deployed application.
+Accessibility is an increasingly important consideration in web design. Inclusive design aims to ensure that all users&mdash;including those with disabilities&mdash;can interact with and understand the content of a webpage.
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+For this week's homework, you will use your new HTML and CSS skills to ensure that an existing site is accessible, according to the provided guidelines. 
 
-- - -
+## Career Connection
+
+Career Services material for this unit is located in the [Career Connection folder](./04-Career-Connection/README.md). For more information about Career Services, including coding milestones, demo days, technical toolkits, workshops, and additional resources, visit the [Career Services website](https://mycareerspot.org/).
+
+## Heads-Up
+
+In the next unit, you'll build on the CSS and HTML fundamentals covered in this unit as you learn about responsive web layouts and advanced CSS.
+
+## Resources
+
+Here are some additional resources to help solidify the topics covered in this unit.
+
+### Git Guide
+
+Refer to the Git Guide to review the Git concepts for this unit. Watch the `📹 Git Guide` video for an additional walkthrough on how to use Git.
+
+  * 📖 [Git Guide: Set Up a Local Repository](./01-Activities/21-Evr_Git-Guide/README.md) 
+
+  * 📹 [Git Guide Video: Set Up a Local Repository](https://2u-20.wistia.com/medias/gwjkxxacax)
+
+### Full-Stack Blog Posts
+
+Check out the [Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for additional resources, like walkthroughs, articles, and installation guides.
+
+  * 📖 [Getting Started with Git](https://coding-boot-camp.github.io/full-stack/git/getting-started-with-git)
+
+  * 📖 [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+
+### General
+
+Refer to these resources for additional information about topics covered in this unit.
+
+  * For instructions on how to add an SSH key to GitLab, refer to the 📖 [GitLab Docs on "Add an SSH key to your GitLab account"](https://docs.gitlab.com/ee/ssh/#add-an-ssh-key-to-your-gitlab-account). **Important**: The SSH key you added for **GitHub** uses RSA. As you follow these instructions, in Step 1, it's very important to replace `ED25519` with `rsa`.
+
+---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
