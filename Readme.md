@@ -8,7 +8,7 @@ At the heart of every website is **HTML**, or **Hypertext Markup Language**. As 
 
 In this unit, you'll learn how to build webpages that use HTML and CSS to define the structure and style. You'll also be introduced to Git, a version control system that stores your code and its history, as well as separate versions of the code. As the building blocks of web development, these are essential skills and tools that you'll use throughout your career. 
 
-![Screenshot](assets\images\02-advanced-css-homework-demo.jpg)
+![portfolio demo](/Assets/Images/01-html-css-git-homework-demo.png)
 
 ## Key Topics
 
